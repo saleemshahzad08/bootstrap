@@ -1,0 +1,24 @@
+body {
+	background: lightsteelblue;
+}
+#header-nav {
+	background-color: white;
+	padding: 0;
+}
+#logo_brand {
+	gap: 20px;
+}
+#logo {
+	background: url('../images/logo.JPG') no-repeat;
+	width: 100px;
+	height: 100px;
+}
+#brand-name {
+	font-size: 1.5em;
+	font-weight: bolder;
+	color: darkorange;
+	text-shadow: 1px 1px 2px black;
+}
+#navbarsExample07 {
+	justify-content: center;
+}
