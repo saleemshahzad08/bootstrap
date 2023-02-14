@@ -6,6 +6,8 @@ body {
 }
 
 
+/* ------------------ ALJAZEERA NAVBAR ---------------------- */
+
 
 #header-nav {
 	background-color: white;
@@ -15,9 +17,9 @@ body {
 	gap: 20px;
 }
 #logo {
-	background: url('../images/logo.JPG') no-repeat;
-	width: 100px;
-	height: 100px;
+	background: url('../images/logo3.JPG') no-repeat;
+	width: 50px;
+	height: 50px;
 }
 #brand-name {
 	font-size: 1.5em;
@@ -28,18 +30,85 @@ body {
 #navbarnav {
 	justify-content: center;
 }
+#navbarlist {
+	font-size: 1.2em;
+	font-weight: bold;
+	color: black;
+	text-shadow: 3px 2px 0.8 black;
+}
+.hover:hover {
+	text-decoration: underline;
+}
+.dropdown:hover .dropdown-menu {
+	display: block;
+}
+#live > a {
+	color: black;
+	text-decoration: none;
+	font-size: 1em;
+	font-weight: bold;
+	color: black;
+}
+.fa-magnifying-glass, .fa-circle-play {
+	font-size: 1.5em;
+}
+
+@media only screen and (max-width: 1000px) {
+	.fa-circle-play {
+	font-size: 1.2em;
+}
+
+@media only screen and (max-width: 400px) {
+	#live {
+	display: none;
+}
+
+}
+
+@media only screen and (min-width: 992px) {
+	#logo {
+	background: url('../images/logo2.JPG') no-repeat;
+	width: 62px;
+	height: 62px;
+}
+}
 
 
 
 /* ------------------ CODE4EDUCATION-4------------------- */
 
+/*
+
 .box {
-	display: flex;
-	background-color: gold;
-	color: darkred;
-	font-size: 1.5em;
-	font-weight: bold;
-	height: 100px;
+	background-color: midnightblue;
+	color: whitesmoke;
+	border: 1px solid whitesmoke;
+}	*/
+
+/* -------------------- 16 - DISPLAY CLASSES ----------------- */
+/*
+.container {
 	border: 3px solid darkred;
-	margin-bottom: 10px;
+	background-color: gold;
 }
+.box1 {
+	background-color: midnightblue;
+	color: whitesmoke;
+	border: 1px solid whitesmoke;
+}
+.box2 {
+	background-color: red;
+	color: whitesmoke;
+	border: 1px solid whitesmoke;
+}
+.box3 {
+	background-color: purple;
+	color: whitesmoke;
+	border: 1px solid whitesmoke;
+}
+.box4 {
+	background-color: green;
+	color: whitesmoke;
+	border: 1px solid whitesmoke;
+}
+*/

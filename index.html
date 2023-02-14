@@ -11,14 +11,14 @@
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/styles.css">
 </head>
-<body style="height: 2000px;">
+<body>
 
 <!------------- ALJAZEERA NAVBAR -------------->
 
 
 
 <header>
-  <nav class="navbar fixed-top bg-light navbar-expand-lg" id="header-nav">
+  <nav class="navbar fixed-top bg-light navbar-expand-md" id="header-nav">
     <div class="container">
       <div class="d-flex" id="logo_brand">
           <div id="logo"></div>
@@ -32,14 +32,14 @@
       </button>
 
 
-
+    
       <div class="collapse navbar-collapse" id="navbarnav">
-        <ul class="navbar-nav">
+        <ul class="navbar-nav" id="navbarlist">
 
 
           <li class="nav-item dropdown">
 
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">News</a>
+            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">News</a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
               <li><a class="dropdown-item" href="#">Middle East</a></li>
               <li><a class="dropdown-item" href="#">Africa</a></li>
@@ -51,23 +51,23 @@
             </ul>
           </li>
 
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Ukraine War</a>
+          <li class="nav-item d-none d-xl-block">
+            <a class="nav-link active hover" aria-current="page" href="#">Ukraine War</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Features</a>
+          <li class="nav-item  d-none d-md-block ">
+            <a class="nav-link active hover" aria-current="page" href="#">Features</a>
           </li>  
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Economy</a>
+          <li class="nav-item d-none d-lg-block">
+            <a class="nav-link active hover" aria-current="page" href="#">Economy</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Opinion</a>
+            <a class="nav-link active hover" aria-current="page" href="#">Opinion</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Videos</a>
+          <li class="nav-item d-none d-lg-block">
+            <a class="nav-link active hover" aria-current="page" href="#">Videos</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">More</a>
+            <a class="nav-link dropdown-toggle active" href="#" data-bs-toggle="dropdown" aria-expanded="false">More</a>
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="#">Coronavirus</a></li>
               <li><a class="dropdown-item" href="#">Climate Crisis</a></li>
@@ -81,9 +81,15 @@
           </li>
           </ul>
         </div>
+      <div class="d-flex">
+        <div id="live" class="fa-solid fa-circle-play">
+          <a href="#"> LIVE </a>
+        </div>
+        <div class="d-none d-xl-block ms-5 fa-solid fa-magnifying-glass"></div>
+      </div>
     </div>
   </nav>
-</header> 
+</header>   
 
 <!--------------- CODE4EDUCATION ------------------>
 
@@ -129,6 +135,37 @@
   ilawa use krni ha property to sb columns ka btana ha k
   kon kon sa kahan hoga ------------->
 
+<!--------------- 16 - DISPLAY CLASSES ---------------------->
+<!--
+<div class="container">
+ <div class="d-inline-flex">
+    <div class="box1 p-2">
+      B-1
+    </div>
+    <div class="box2 p-2">
+      B-2
+    </div>
+  </div>  
+
+  <div class="row p-2">
+    <div class="col green box1">
+      <h1>B-1</h1>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. At aspernatur, quam, culpa quis veritatis dolorem, itaque voluptatum cum praesentium
+    </div>
+    <div class="col red d-print-none box2">
+      <h1>B-2</h1>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus asperiores, debitis. Explicabo esse, quia possimus dolore hic, voluptas nihil cumque suscipit deserunt, voluptatibus beatae neque dolorum amet natus est nostrum.
+    </div>
+    <div class="col yellow box3">
+      <h1>B-3</h1>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum cumque doloribus doloremque sint accusamus, itaque vero similique possimus quam, beatae esse. Corporis laudantium fugiat ab dignissimos eum officiis architecto
+    </div>
+    <div class="col blue box4">
+      <h1 class="d-inline">B-4</h1>
+      <span class="d-block"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi corporis officiis modi accusamus provident sunt aperiam eius 
+      </span>
+  </div> 
+</div> -->
 
 </body>
 </html>
