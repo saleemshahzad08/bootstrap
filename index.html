@@ -194,18 +194,145 @@
 
 <!--------------- 22 - BUTTON CLASSES ----------------->
 
-  
-<div class="pt-5 ps-3">
+<!--
+<div class="pt-5 ps-3"> ------ Simple Buttons -------
   <button class="btn btn-primary">Button</button>
   <button class="btn btn-warning">Button</button>
   <button class="btn btn-danger">Button</button>
   <button class="btn btn-success">Button</button>
   <a href="#" class="btn btn-dark" role="button"> Button </a>
   <button class="btn btn-secondary" type="submit">Button</button>
-<!--  <input type="button" name="input1" class="btn btn-info">  -->
   <input type="submit" name="input2" class="btn btn-light">
   <input type="reset" name="input3" class="btn btn-dark">
 </div>
+
+<div class="pt-5 ps-3"> ------ Outline Buttons -------
+  <button class="btn btn-outline-primary">Button</button>
+  <button class="btn btn-outline-warning">Button</button>
+  <button class="btn btn-outline-danger">Button</button>
+  <button class="btn btn-outline-success">Button</button>
+  <a href="#" class="btn btn-outline-dark" role="button"> Button </a>
+  <button class="btn btn-outline-secondary" type="submit">Button</button>
+  <input type="submit" name="input2" class="btn btn-outline-light">
+  <input type="reset" name="input3" class="btn btn-outline-dark">
+</div>
+
+<div class="pt-5 ps-3"> ------ Button Sizes -------
+  <button class="btn btn-lg btn-primary">Button</button>
+  <button class="btn btn-warning">Button</button>
+  <button class="btn btn-sm btn-danger">Button</button>
+</div>
+
+<div class="pt-5 px-3 d-grid gap-2"> ---- Block Buttons -----
+  <button class="btn btn-lg btn-primary">Button</button>
+  <button class="btn btn-warning">Button</button>
+  <button class="btn btn-sm btn-danger">Button</button>
+</div>
+
+<div class="pt-5 ps-3"> ---- Active/Disabled -----
+  <button class="btn btn-success disabled">Button</button>
+  <button class="btn btn-primary active">Button</button>
+</div>
+
+<hr>  -->
+
+<!--------------- 23 - BUTTON GROUP CLASSES ----------------->
+
+<div class="pt-5 ps-3 btn-group"> <!---- Button Group ----->
+  <button class="btn btn-success">Button</button>
+  <button class="btn btn-danger">Button</button>
+  <button class="btn btn-warning">Button</button>
+</div>
+
+<br>
+<div class="pt-5 ps-3 btn-group-lg"> <!---- Button Group Size Lg --->
+  <button class="btn btn-success">Button</button>
+  <button class="btn btn-danger">Button</button>
+  <button class="btn btn-warning">Button</button>
+</div>
+
+<br>
+<div class="pt-5 ps-3 btn-group"> <!---- Button Group Size Normal --->
+  <button class="btn btn-success">Button</button>
+  <button class="btn btn-danger">Button</button>
+  <button class="btn btn-warning">Button</button>
+</div>
+
+<br>
+<div class="pt-5 ps-3 btn-group-sm"> <!---- Button Group Size Small ---->
+  <button class="btn btn-success">Button</button>
+  <button class="btn btn-danger">Button</button>
+  <button class="btn btn-warning">Button</button>
+</div>
+
+<div class="btn-toolbar"> <!----- Button Toolbar ------>
+
+  <div class="pt-5 ps-3 btn-group"> 
+    <button class="btn btn-success">Button</button>
+    <button class="btn btn-success">Button</button>
+    <button class="btn btn-success">Button</button>
+  </div>
+
+  <div class="pt-5 ps-3 btn-group"> 
+    <button class="btn btn-danger">Button</button>
+    <button class="btn btn-danger">Button</button>
+  </div>
+
+  <div class="pt-5 ps-3 btn-group"> 
+    <button class="btn btn-warning">Button</button>
+  </div>
+
+</div>
+
+<div class="pt-5 ps-3 btn-group-vertical"> <!-- Button Vertical Group --->
+    <button class="btn btn-success">Button</button>
+    <button class="btn btn-danger">Button</button>
+    <button class="btn btn-primary">Button</button>
+</div>
+
+<br>
+
+<div class="pt-5 ps-3 btn-group"> <!---- Nesting Buttons ----->
+  <button class="btn btn-success">Button</button>
+  <button class="btn btn-danger">Button</button>
+  <button type="button" class="btn btn-warning dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Dropdown </button>
+    <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+      <li>
+        <a class="dropdown-item" href="#">Dropdown Link 1</a>
+      </li>
+      <li>
+        <a class="dropdown-item" href="#">Dropdown Link 1</a>
+      </li>      
+    </ul>
+</div>
+
+<br>
+
+<div class="py-5 ps-3 btn-group" role="group" aria-label="Basic checkbox toggle button group">
+  <input type="checkbox" class="btn-check" id="btncheck1" autocomplete="off">
+  <label class="btn btn-outline-primary" for="btncheck1">Checkbox 1</label>
+
+  <input type="checkbox" class="btn-check" id="btncheck2" autocomplete="off">
+  <label class="btn btn-outline-primary" for="btncheck2">Checkbox 2</label>
+
+  <input type="checkbox" class="btn-check" id="btncheck3" autocomplete="off">
+  <label class="btn btn-outline-primary" for="btncheck3">Checkbox 3</label>
+</div>
+
+<br>
+
+<div class="py-5 ps-3 btn-group" role="group" aria-label="Basic radio toggle button group">
+  <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+  <label class="btn btn-outline-primary" for="btnradio1">Radio 1</label>
+
+  <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+  <label class="btn btn-outline-primary" for="btnradio2">Radio 2</label>
+
+  <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
+  <label class="btn btn-outline-primary" for="btnradio3">Radio 3</label>
+</div>
+
+
 <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
